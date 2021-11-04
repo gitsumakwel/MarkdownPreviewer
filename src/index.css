@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  scroll-behavior: smooth;
+  font-family: 'Arial', sans-serif;
+  width: auto!important;
+  overflow: hidden!important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 16px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%!important;
+  height: 100%;
+  overflow: hidden!important;
+}
+body {
+}
+.scroll-pane-container {
+  position: relative;
+}
+main {
+  width: inherit;
+  height: inherit;
+  width: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  margin: 0;
+  //background-image: radial-gradient(circle at 0% 5%, rgb(98, 150, 154) 45.2%, rgb(13, 88, 139) 85.2%,rgb(1, 60, 93) 110.3%);
+  background-color: #282C34;
+  color: #DDE0E6;
+}
+
+.codes {
+  white-space: pre-wrap;
+  tab-size: 5;
+  margin: 5px 15px;
+  background-color: #212121;
+}
+blockquote {
+  border-left: 8px solid white;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  background-color: green;
+  width: 85%;
+}
+.comment {
+  paading: 0px;
+  color: gray;
+}
+.table {
+   background-color: white;
+}
+thead {
+   background-color: #212121;
+   color: white;
+}
+.overline {
+  text-decoration: overline;
+}
+.midline {
+  text-decoration: line-through;
+}
+tab {
+  width: 5px;
+}
+.gold {
+  color:#dbd548;
+  fontStyle:italic;
+}
+.violet {
+  color:#912787;
+}
+.green {
+  color:#438453;
+}
+.gray {
+  color:#978da4;
+}
+.brown {
+  color:#9c6d42;
+}
+.blue {
+  color:#4eadbe;
+}
+.whenyouseeyoushitbrick {
+   display: initial;
+   overflow-x:hidden;
+}
+.hide {
+   display: none;
+   overflow-x:hidden;
+}
+.scroll {
+   height: auto;
+   scroll-behavior: smooth;
+   -webkit-overflow-scrolling: touch;
+}
+.noscrollbar {
+   scrollbar-width: none;  /* Firefox */
+   -ms-overflow-style: none;  /* IE and Edge */
+   overflow: hidden;
+}
